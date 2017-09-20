@@ -1,1 +1,2 @@
-# edition-numerique
+# édition graphique et numérique
+https://artsaucarre.github.io/edition-numerique/
