@@ -1,0 +1,35 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900,900i');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+
+.hide-seek:hover {
+  color: white;
+}
+
+.hide-seek {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
