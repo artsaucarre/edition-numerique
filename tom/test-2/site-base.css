@@ -1,0 +1,44 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+}
+
+body {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    background-color: black;
+}
+
+.gif {
+  margin-top; -40;
+  width: 100%;
+  margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+  position: absolute;
+  z-index: 0;
+}
+
+.texte {
+  position: relative;
+  z-index: 1;
+  padding-top: 60vh;
+  font-family: Helvetica;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  opacity: 60%;
+}
