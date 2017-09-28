@@ -25,5 +25,10 @@ div {
 }
 
 body {
+<<<<<<< HEAD
+   font-family: 'Homemade Apple', cursive;
+=======
     font-family: "League Gothic";
+    color: red;
+>>>>>>> af4149e09169965345d7dfb61e68289ee6be9937
 }
