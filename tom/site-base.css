@@ -13,18 +13,32 @@ div {
 }
 
 /* liens vers la typo */
+
 @font-face {
-    font-family: 'League Gothic';
-    src: url('fonts/leaguegothic-regular-webfont.eot');
-    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-regular-webfont.svg#league_gothic_regularregular') format('svg');
+    font-family: 'goboldregular';
+    src: url('fonts/gobold_regular.woff2') format('woff2'),
+         url('gobold_regular.woff') format('woff');
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
+
 }
 
 body {
-    font-family: "League Gothic";
-    color: red;
+    font-family: 'goboldregular';
+    color: white;
+    background-color: black;
+}
+
+.title {
+    outline: none;
+    font-size: 370px;
+    text-align: center;
+}
+
+.texte {
+  padding-left: 110px;
+  padding-right: 755px;
+  text-align: justify;
+  outline: none;
+  margin-top: -20px;
 }
