@@ -14,17 +14,26 @@ div {
 
 /* liens vers la typo */
 @font-face {
-    font-family: 'League Gothic';
-    src: url('fonts/leaguegothic-regular-webfont.eot');
-    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-regular-webfont.svg#league_gothic_regularregular') format('svg');
+    font-family: 'bagnard_regularregular';
+    src: url('fonts/bagnardsans.woff2') format('woff2'),
+         url('fonts/bagnardsans.woff') format('woff');
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
 }
 
 body {
-    font-family: "League Gothic";
+    font-family: 'bagnard_regularregular';
     color: red;
+
+}
+div {
+  color: blue;
+}
+.bleu {
+  color : blue;
+  font-family: serif;
+}
+.rose {
+  color : pink;
+  font-family: 'bagnard_regularregular';
 }
