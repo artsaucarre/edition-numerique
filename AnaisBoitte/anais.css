@@ -10,6 +10,7 @@ div {
     box-sizing: border-box;
     display: block;
     page-break-inside:avoid;
+
 }
 
 /* liens vers la typo */
@@ -22,5 +23,46 @@ div {
 }
 
 body {
-    font-family: 'Determination Mono';
+   
+    background-color :    #E1e3DA;
+   
+}
+
+.contenu p {
+     font-family: 'Determination Mono';
+      font-size: 280px;
+
+}
+
+.logo {
+  padding-left: 20px;
+  font-size: 80px;
+  font-family: 'Determination Mono';
+}
+
+svg {
+  width: 63.917px;
+  height: 57.604px;
+}
+
+text {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-width: 1;
+    stroke-dashoffset: 10;
+    stroke:  #BD2031;
+  }
+  50% {
+    stroke-width: 2;
+  }
+  to {
+    stroke-width: 2;
+    stroke-dashoffset: 10;
+    stroke: #00C3FF;
+  }
 }
