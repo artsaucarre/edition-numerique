@@ -1,0 +1,39 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+@font-face {
+    font-family: 'bagnard_regularregular';
+    src: url('fonts/bagnardsans.woff2') format('woff2'),
+         url('fonts/bagnardsans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'bagnard_regularregular';
+    color: red;
+
+}
+div {
+  color: blue;
+}
+.bleu {
+  color : blue;
+  font-family: serif;
+}
+.rose {
+  color : pink;
+  font-family: 'bagnard_regularregular';
+}

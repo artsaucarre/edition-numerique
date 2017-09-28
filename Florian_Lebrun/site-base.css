@@ -1,0 +1,49 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+@font-face {
+    font-family: 'montserratbold';
+    src: url('montserrat-bold.woff2') format('woff2'),
+         url('montserrat-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-size: 35px;
+    font-family: "montserratbold";
+    color: blue;
+}
+p {
+  margin-top: 20px;
+}
+p {
+  margin-bottom: 10px
+}
+.ligne-en-bas {
+  border-bottom: 3px solid blue;
+  margin-left: 100px;
+  margin-right: 870px;
+  float: left;
+  position: absolute;
+}
+.ligne-en-haut{
+  margin-left: 870px;
+  margin-right: 100px;
+  float:left;
+  position: absolute;
+  border-bottom: 3px solid blue;
+}

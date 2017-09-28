@@ -1,0 +1,44 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+
+@font-face {
+    font-family: 'goboldregular';
+    src: url('fonts/gobold_regular.woff2') format('woff2'),
+         url('gobold_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'goboldregular';
+    color: white;
+    background-color: black;
+}
+
+.title {
+    outline: none;
+    font-size: 370px;
+    text-align: center;
+}
+
+.texte {
+  padding-left: 110px;
+  padding-right: 755px;
+  text-align: justify;
+  outline: none;
+  margin-top: -20px;
+}
