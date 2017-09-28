@@ -14,24 +14,36 @@ div {
 
 /* liens vers la typo */
 @font-face {
-    font-family: 'League Gothic';
-    src: url('fonts/leaguegothic-regular-webfont.eot');
-    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-regular-webfont.svg#league_gothic_regularregular') format('svg');
+    font-family: 'montserratbold';
+    src: url('montserrat-bold.woff2') format('woff2'),
+         url('montserrat-bold.woff') format('woff');
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
+
 }
 
 body {
-<<<<<<< HEAD
-   font-family: 'Homemade Apple', cursive;
-=======
-    font-family: "League Gothic";
-    color: red;
-<<<<<<< HEAD
->>>>>>> af4149e09169965345d7dfb61e68289ee6be9937
-=======
->>>>>>> af4149e09169965345d7dfb61e68289ee6be9937
+  font-size: 35px;
+    font-family: "montserratbold";
+    color: blue;
+}
+p {
+  margin-top: 20px;
+}
+p {
+  margin-bottom: 10px
+}
+.ligne-en-bas {
+  border-bottom: 3px solid blue;
+  margin-left: 100px;
+  margin-right: 870px;
+  float: left;
+  position: absolute;
+}
+.ligne-en-haut{
+  margin-left: 870px;
+  margin-right: 100px;
+  float:left;
+  position: absolute;
+  border-bottom: 3px solid blue;
 }
