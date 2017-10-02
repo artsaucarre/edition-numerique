@@ -1,7 +1,7 @@
 /* réinitialisations de base, ne pas toucher */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 div {
@@ -25,6 +25,12 @@ div {
 }
 
 body {
-    font-family: "League Gothic";
-    color: red;
+    font-family: 'Anton', sans-serif;
+    color: #0DA6D3 ;
+    font-size:125px;
+    background-color: #0DA6D3;
+}
+
+p:hover{
+    color:#F1C40F;
 }

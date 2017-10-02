@@ -26,6 +26,7 @@ body {
   font-size: 35px;
     font-family: "montserratbold";
     color: blue;
+    background-color: white;
 }
 p {
   margin-top: 20px;
@@ -46,4 +47,27 @@ p {
   float:left;
   position: absolute;
   border-bottom: 3px solid blue;
+}
+.titre{
+  font-size: 70px;
+  font-family: "montserratbold";
+  color: blue;
+  margin-top: 15px;
+  margin-left: 95px;
+  margin-bottom: 22px;
+  border-bottom: 5px solid blue;
+  margin-right: 650px;
+  line-height: 50px;
+}
+.titre-red{
+  font-size: 70px;
+  font-family: "montserratbold";
+  color: red;
+  margin-top: -300px;
+  margin-left: 100px;
+  margin-bottom: 25px;
+  border-bottom: 5px solid red;
+  margin-right: 650px;
+  line-height:50px;
+  
 }
