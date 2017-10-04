@@ -20,10 +20,6 @@ body {
   background-color: black;
 }
 
-.hide-seek:hover {
-  color: white;
-}
-
 .hide-seek {
   font-weight: 900;
   font-style: italic;
@@ -32,4 +28,8 @@ body {
   color: black;
   margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
   transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+.hide-seek:hover {
+  color: white;
 }

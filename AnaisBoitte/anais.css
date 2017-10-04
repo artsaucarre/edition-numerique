@@ -23,9 +23,8 @@ div {
 }
 
 body {
-   
-    background-color :    #000;
-   
+
+
 }
 
 .contenu p {
@@ -76,7 +75,7 @@ svg {
 text {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 5s linear alternate infinite;
+  animation: dash 0.1s linear alternate infinite;
 }
 
 @keyframes dash {

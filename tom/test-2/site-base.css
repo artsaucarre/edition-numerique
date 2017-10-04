@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+
 /* réinitialisations de base, ne pas toucher */
 * {
     margin: 0;
@@ -13,11 +16,8 @@ div {
 }
 
 /* liens vers la typo */
-}
 
 body {
-    font-family: 'Helvetica';
-    font-weight: bold;
     background-color: black;
 }
 
@@ -34,11 +34,9 @@ body {
   position: relative;
   z-index: 1;
   padding-top: 60vh;
-  font-family: Helvetica;
-  font-style: italic;
-  font-weight: bold;
+  font-family: 'VT323', monospace;
   font-size: 30px;
   color: white;
   text-align: center;
-  opacity: 60%;
+  text-decoration: blink;
 }
