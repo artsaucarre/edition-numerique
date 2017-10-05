@@ -1,0 +1,50 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/leaguegothic-regular-webfont.eot');
+    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic-regular-webfont.svg#league_gothic_regularregular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+/*
+https://css-tricks.com/snippets/css/keyframe-animation-syntax/
+*/
+
+body{
+  background-color: #000000
+  }
+  p {
+  color: #FFFFFF;
+  margin-left: 650px;
+  margin-top: 100px;
+  font-size: 50px
+  }
+  li a{
+    color: #FFFFFF;
+    margin-left: 650px;
+    margin-top: 300px;
+    font-size: : 60px;
+
+  }
+  #video{
+    float:left;
+    margin-left: 150px
+  }
+}
