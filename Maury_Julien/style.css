@@ -1,0 +1,107 @@
+body { text-align: center;
+padding-top: 15px;
+padding-bottom:50px;
+  font-size: 250%;
+  color: white;
+  background:black;
+
+}
+#m {
+
+  height:90px;
+    width:90px;
+  background-color:#5BEBDF;
+  margin:top;
+  margin:5px;
+  background-image:url(http://www.pinasgifts.com/image/cache/data/2/66-500x500.png);
+  background-size:cover;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+#gentil {
+  height:90px;
+    width:90px;
+  background-color:#5BABDF;
+  margin:top;
+  margin:5px;
+  background-image:url(http://static6.businessinsider.com/image/53601a026bb3f7e3512eb8a7-480-/mcdonalds-double-quarter-pounder-with-cheese-2.png);
+background-size:cover;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#e {
+  height:90px;
+    width:90px;
+  background-color:#5B0BDF;
+  margin:top;
+  margin:5px;
+  background-image:url(http://pngimg.com/upload/cookie_PNG13656.png);
+background-size:cover;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#f {
+  height:90px;
+    width:90px;
+  background-color:#5B8BDF;
+
+  background-size:cover;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  motion-path: path("M69.8, 98.3c116.9, 0,76.9, 261.5, 261.5, 261.5 s103.8-195.4, 233.8-195.4S627.5, 356, 715.2, 356");
+  background-image:url(http://www.pizzabeauvais.fr/files/tex_mex/Frites_grand_barquette.png);
+  background-size:cover;
+  }
+@-webkit-keyframes boulette {
+    from{-webkit-transform:rotate(-250deg);}
+
+  50%
+  {-webkit-transform:rotate(20deg); }
+
+to{-webkit-transform: rotate(-40deg);}
+}
+
+.tourne {-webkit-animation:  boulette 3s ease infinite;
+}
+@-webkit-keyframes biloute {
+    from{-webkit-transform:scale(1.25);}
+
+  50%
+  {-webkit-transform:scale(1.25deg); }
+
+to{-webkit-transform: scale(1.25deg);}
+}
+
+.interieur {-webkit-animation:  biloute 1.5s ease infinite;
+}
+
+@-webkit-keyframes faim {
+    from{-webkit-transform:translate(0px);}
+
+  100%
+  {-webkit-transform:translate(250px); }
+
+to{-webkit-transform:translate(500px);}
+}
+
+.glisse {-webkit-animation:  faim 5s ease infinite;
+}
+@-webkit-keyframes change {
+    0% { motion-offset: 0; }
+  100% { motion-offset: 100%; }
+  }
+  0% { motion-offset: 0; transform: scale(1); }
+  100% { motion-offset: 100%; transform: scale(0); }
+
+
+.change {-webkit-animation:  change 5s ease infinite;
+}
