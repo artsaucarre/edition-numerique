@@ -1,0 +1,73 @@
+body {
+  background: #222222;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 0px;
+  color: #A4A4A4;
+  text-align: right;
+  margin-right: 200px;
+  font-size: 50px;
+  word-spacing: -10px;
+}
+
+span {
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+#one {
+  color: #009069;
+}
+
+#two {
+  color: #0C9587;
+}
+
+#three {
+  color: #04A77C;
+}
+
+#four {
+  color: #06C08E;
+}
+
+#five {
+  color: #2BD9A8;
+}
+
+#six {
+  color: #1CC20A;
+}
+
+#seven {
+  color: #9AC20A;
+}
+
+#eight {
+  color: #CADA13;
+}
+
+#nine {
+  color: #BDBA07;
+}
+
+#ten {
+  color: #C5A60A;
+}
+
+#eleven {
+  color: #C5870A;
+}
+
+#twelve {
+  color: #D47B22;
+}
+
+#thirteen {
+  color: #E65918;
+}
+
+#fourteen {
+  color: #CE2C2C;
+}
