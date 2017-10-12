@@ -1,0 +1,53 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+/* liens vers la typo */
+@font-face {
+
+   
+    src: url('fonts/leaguegothic-regular-webfont.eot');
+    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic-regular-webfont.svg#league_gothic_regularregular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.content{
+    height: 100vh;
+    text-align: center;    
+    color: blue;
+    font-size: 80px;
+    background-image: url("https://media.gq.com/photos/565c619649ad37bf7816123a/master/w_1504/richards-sq.jpg");
+}
+
+.txt {
+
+padding-top:20vh;
+
+}
+
+.t1 {
+
+font-family: 'Poppins', sans-serif;
+color:#f72525;
+
+}
+
+.t2 {
+
+    font-family: 'Titillium Web', sans-serif;
+    color:#232222;
+}
