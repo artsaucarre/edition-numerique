@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+}
+header{
+	margin-top:20px;
+	margin-left:20px;
+    width:260px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background-color: brown; 
+    height: 700px;
+     color: white;
+    
+}
+ul{
+	list-style-type: none;
+    margin-top: 30px;
+    width: 240px;
+    background-color: yellow;
+}
+li:hover{
+	background-color:black;
+	text-align:left;
+	text-decoration: none;
+    color: white;
+}
+
+li{
+	text-align:left;
+	text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size:200%;
+    line-height: 30px;
+    color: red;
+}
+body{
+
+font-family: Sans-Serif;
+}
+#texte{
+margin-left: 20px;	
+}
+#txt{
+font-size:250%;
+   margin-left: 20px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+section{
+background-color: green;
+    margin-left: 300px;
+    color: white;
+    max-height:100%;
+   max-width: 100%;
+    line-height: 50px;
+    font-size: 150%;
+}
+#BRUUU{
+text-decoration: uppercase; 
+    font-size:400%;
+	
+}
+nav2{
+background-color: brown; 
+    width: 100%;
+    margin-left: 100px;
+	
+}
+#dessous{
+margin-top: 60px;
+    margin-left: 40px;
+	}
+#p1{
+margin-top: 60px;
+
+	}
+#p2{
+margin-top: 60px;
+
+	}
+#p3{
+margin-top: 60px;
+font-size:50%;
+	}
+
+
+@-webkit-keyframes deform {
+    from{
+          -webkit-transform:skewX(20deg) skewY(20deg);
+
+/*        -webkit-transform: rotate(0deg);
+*/    }
+  
+  30%{
+  
+/*     -webkit-transform: rotate(-10deg);*/
+
+    margin-left:100px;
+        -webkit-transform:skewX(14deg) skewY(15deg);
+      -webkit-transform:rotate(-50deg); 
+      margin-top: 150px;
+  }
+  
+  50%{
+    -webkit-transform: scale(2);
+    -webkit-transform:rotate(20deg); 
+      margin-left:300px;
+      margin-bottom: 150px;
+  }
+    80%{
+    -webkit-transform: scale(1);
+    -webkit-transform:rotate(-70deg); 
+        margin-left:-150px;
+  }
+    to{
+    -webkit-transform:skewX(40deg) skewY(10deg);
+        -webkit-transform:rotate(30deg); 
+        margin-left:100px;
+  
+    }
+}
+
+.deformation {
+    -webkit-animation: deform 2s linear infinite;
+    position: absolute;
+}
+
