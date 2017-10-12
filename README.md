@@ -63,6 +63,14 @@ http://www.ecogex.com/delectable/
 ## guide web-to-print
 http://kabk.github.io/govt4-coding/print-css-tips.html
 
+## à lire
+* “Workshop PrePostPrint - Chercher, manipuler, partager, imprimer”, Strabic, juin 2017: http://strabic.fr/Workshop-PrePostPrint
+* Hybrid Publishing Group: https://hpg.io/
+* “Documenter une production en design graphique”, mémoire Antoine Gelgon: https://github.com/Antoine-Gelgon/memoire-dnsep
+Vous pouvez lire le mémoire au format PDF ici: http://esad-gv.net/designgraphique/_ressources/2014-2015/Memoires_DNSEP_2015/Antoine_Gelgon_-_Documenter_une_production_en_design_graphique.pdf
+* Workshop HTML sauce cocktail: https://github.com/HEAR/HTML_sauce-cocktail-workshop-OSP
+* Dispersive Edition, workshop par Raphaël Bastide: https://raphaelbastide.com/workshops/dispersive/
+
 # outils
 
 ## code:
@@ -91,6 +99,11 @@ http://love-letters.be/foundry.html → fondrie open source (et Belge!!)
 http://osp.kitchen/foundry/ → fondrie open source (et Belge!!)
 http://www.velvetyne.fr/ → fondrie open source
 http://typotheque.interstices.io/ → sélection
+
+## graphisme
+* principes de base: http://lorainefurter.net/documents/petit_manuel_graphisme_regles.pdf
+* Typo Guide (règles typographiques): http://web.archive.org/web/20160122014347/http://www.typoguide.ch
+* Ponctuations et espaces: http://www.typoguide.ch/tmp/
 
 # tuto
 
