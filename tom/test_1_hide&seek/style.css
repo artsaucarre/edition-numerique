@@ -20,16 +20,23 @@ body {
   background-color: black;
 }
 
-.hide-seek {
-  font-weight: 900;
-  font-style: italic;
-  font-size: 30px;
-  text-align: center;
-  color: black;
-  margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
-  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+.container {
+height: 30px;
+width: 160px;
+margin: auto;
+margin-top: 50vh;
+transform: translateY(-50%);
+color: black;
 }
 
-.hide-seek:hover {
+.text {
+  font-size: 30px;
+  font-style: italic;
+  font-family: helvetica;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container:hover{
   color: white;
 }
