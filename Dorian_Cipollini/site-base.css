@@ -14,12 +14,7 @@ div {
 
 /* liens vers la typo */
 @font-face {
-    font-family: 'League Gothic';
-    src: url('fonts/leaguegothic-regular-webfont.eot');
-    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-regular-webfont.svg#league_gothic_regularregular') format('svg');
+  font-family: 'Libre Baskerville', serif;
     font-weight: normal;
     font-style: italic;
 }
@@ -32,16 +27,24 @@ body{
   }
   p {
   color: #FFFFFF;
-  margin-left: 650px;
+  margin-left: 625px;
   margin-top: 100px;
   font-size: 50px
   }
   li a{
     color: #FFFFFF;
     margin-left: 650px;
-    margin-top: 300px;
-    font-size: : 60px;
+    margin-top: 310px;
+    font-size: :50px;
 
+  }
+  #gif1 {
+    margin-left: 500px;
+    margin-top:250px;
+  }
+  #gif2 {
+    margin-left: 550px;
+    margin-top:200px;
   }
   #video{
     float:left;
