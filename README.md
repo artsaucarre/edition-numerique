@@ -93,11 +93,9 @@ http://www.velvetyne.fr/ → fondrie open source
 http://typotheque.interstices.io/ → sélection
 
 ## graphisme
-* principes de base
-lorainefurter.net/documents/petit_manuel_graphisme_regles.pdf
-* Typo Guide (règles typographiques)
-** http://web.archive.org/web/20160122014347/http://www.typoguide.ch
-** Ponctuations et espaces: http://www.typoguide.ch/tmp/
+* principes de base: http://lorainefurter.net/documents/petit_manuel_graphisme_regles.pdf
+* Typo Guide (règles typographiques): http://web.archive.org/web/20160122014347/http://www.typoguide.ch
+* Ponctuations et espaces: http://www.typoguide.ch/tmp/
 
 # tuto
 
