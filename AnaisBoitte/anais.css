@@ -23,32 +23,59 @@ div {
 }
 
 body {
-   
-    background-color :    #E1e3DA;
-   
+
+
 }
 
 .contenu p {
      font-family: 'Determination Mono';
       font-size: 280px;
+      color: white;
+
+}
+
+.image {
+    margin-top: -5%;
+position: absolute;
+padding-left: 35%;
+}
+
+.image2 {
+position: absolute;
+padding-left: 20%;
+}
+
+.image3 {
+position: absolute;
+padding-left: 60%;
+}
+
+.image4 {
+ margin-top: -25%;
+position: absolute;
+padding-left: 60%;
+}
+
+.image img, .image2 img, .image3 img, .image4 img{
+    width: 60%;
 
 }
 
 .logo {
   padding-left: 20px;
-  font-size: 80px;
+  font-size: 120px;
   font-family: 'Determination Mono';
 }
 
 svg {
-  width: 63.917px;
-  height: 57.604px;
+  width: 113.917px;
+  height: 107.604px;
 }
 
 text {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 5s linear alternate infinite;
+  animation: dash 0.1s linear alternate infinite;
 }
 
 @keyframes dash {

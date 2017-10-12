@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'aileronultralight';
+  src: url('fonts/aileron/aileron-ultralight-webfont.woff2') format('woff2'),
+       url('fonts/aileron/aileron-ultralight-webfont.woff') format('woff');
+}
+.menu {
+        padding: 0;
+        width: 150px;
+        text-align: center;
+        font-family: 'aileronultralight';
+        font-weight: 400;
+        font-size: 24px;
+      }
+.menu a{
+    
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 2px;
+}
+ .about {
+        background-color: rgba(153, 102, 255, .4);
+      }
+.contact {
+        background-color: rgba(153, 102, 255, .5);
+}
+.portfolio {
+        background-color: rgba(153, 102, 255, .6);
+      }

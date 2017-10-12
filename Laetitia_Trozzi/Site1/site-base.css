@@ -25,6 +25,13 @@ div {
 }
 
 body {
-    font-family: "League Gothic";
-    color: red;
+    background-image: url(http://www.pierrelexcellent.com/wp-content/uploads/2014/10/noir-et-blanc-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    background-color: black;
+   font-family: 'Bagnard', cursive;
+   font-size: 140px;
+   text-align: center;
+   margin-top: 10px;
 }

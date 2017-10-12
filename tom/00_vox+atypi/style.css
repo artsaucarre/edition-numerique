@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+a, a:hover, a:focus, a:visited, a:active {
+    color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+.titre-site{
+	padding: 15px;
+  padding-top: 22px;
+	font-size: 28px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  line-height: 30px;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.menu-titre {
+  float: right;
+	padding: 15px;
+	font-size: 28px;
+}
+
+.menu-typo {
+    font-weight: 200;
+}
+
+.typo {
+	font-size: 20px;
+	padding-right: 0;
+}
+
+/* MENU MODERNES */
+
+.sub-modernes {
+	display: none;
+}
+.sub-didones {
+	display: none;
+}
+.sub-mecanes {
+	display: none;
+}
+.sub-lineales {
+	display: none;
+}
+
+.sub-incises {
+	display: none;
+}
+
+.sub-scriptes {
+	display: none;
+}
+
+.sub-manuaires {
+	display: none;
+}
+
+/* MENU MODERNES */
+
+.menu-modernes:hover .sub-modernes{
+    display: block;
+}
+
+.menu-didones:hover .sub-didones{
+    display: block;
+}
+
+.menu-mecanes:hover .sub-mecanes{
+    display: block;
+}
+
+.menu-lineales:hover .sub-lineales{
+    display: block;
+}
+
+/* MENU CLASSIQUES */
+
+.sub-classiques {
+	display: none;
+}
+.sub-humanes {
+	display: none;
+}
+.sub-garaldes {
+	display: none;
+}
+.sub-reales {
+	display: none;
+}
+
+.menu-classiques:hover .sub-classiques{
+    display: block;
+}
+
+.menu-humanes:hover .sub-humanes{
+    display: block;
+}
+
+.menu-garaldes:hover .sub-garaldes{
+    display: block;
+}
+
+.menu-reales:hover .sub-reales{
+    display: block;
+}
+
+/* MENU INCISES */
+
+.menu-incises:hover .sub-incises{
+    display: block;
+}
+
+/* MENU SCRIPTES */
+
+.menu-scriptes:hover .sub-scriptes{
+    display: block;
+}
+
+/* MENU MANUAIRES */
+
+.menu-manuaires:hover .sub-manuaires{
+    display: block;
+}
+.contenu-typo {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  display: inline-block;
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+img.fraktur {
+  width: 50%;
+}
+
+img.libra {
+  width: 50%;
+}
+
+img.albertus {
+  width: 50%;
+}
+
+img.optima {
+  width: 50%;
+}
+
+img.centaur {
+  width: 50%;
+}
+
+img.mistral {
+  width: 50%;
+}
+
+img.trafton-script {
+  width: 50%;
+}
+
+img.perpetua {
+  width: 50%;
+}
+
+.garamond {
+  font-size: 140px;
+  font-family: Garamond;
+  outline: none;
+  max-width: 970px;
+}
