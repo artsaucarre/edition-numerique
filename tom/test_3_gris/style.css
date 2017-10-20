@@ -69,3 +69,51 @@ a {
   margin-top: 25vh;
   transform: translateY(-50%);
 }
+
+.tri {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+}
+
+
+.tri1 {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 17.3px 10px 0;
+border-color: transparent black transparent transparent;
+position: absolute;
+z-index: 2;
+top: 25%;
+right: 0;
+}
+
+.tri2 {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 17.3px 10px 0;
+border-color: transparent black transparent transparent;
+position: absolute;
+z-index: 2;
+top: 50%;
+right: 0;
+}
+
+.tri3 {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 17.3px 10px 0;
+border-color: transparent black transparent transparent;
+position: absolute;
+z-index: 2;
+top: 75%;
+right: 0;
+}
+
+.hidden {
+  display: none;
+}
