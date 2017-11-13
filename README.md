@@ -7,9 +7,9 @@
 * module culture graphique (B3 Mons):
 https://furter.github.io/culture-graphique/index.html
 * workshop classifications typo (B1 Mons):
-** https://furter.github.io/culture-graphique/typo-classifications.html
-** https://furter.github.io/culture-graphique/constellations.html
-** https://furter.github.io/culture-graphique/vox-atypi/menu.html
+- https://furter.github.io/culture-graphique/typo-classifications.html
+- https://furter.github.io/culture-graphique/constellations.html
+- https://furter.github.io/culture-graphique/vox-atypi/menu.html
 * workshop specimen typo hybrides (Eracom Lausanne, Suisse):
 https://furter.github.io/specimen-hybrides/Presentation/
 * présentations typo (Rietveld Academie Amsterdam, Pays-Bas):
@@ -18,10 +18,10 @@ http://showinfo.rietveldacademie.nl/
 https://kabk.github.io/go-theses-17/
 
 ## projets/art/design html:
-Rafaël Rozendaal http://www.newrafael.com/websites/
+* Rafaël Rozendaal http://www.newrafael.com/websites/
 * Martine Syms
-** http://everythingiveeverwantedtoknow.com
-** http://readingtrayvonmartin.com/
+- http://everythingiveeverwantedtoknow.com
+- http://readingtrayvonmartin.com/
 * Jan Robert Leegte
 http://www.leegte.org/
 * Jennifer Dewalt, *180 websites*
@@ -51,6 +51,7 @@ Shu Lea Cheang, *Brandon*
 
 ## guide web-to-print
 * http://kabk.github.io/govt4-coding/print-css-tips.html
+* http://prepostprint.dev.schr.fr/en:resources
 
 ## à lire
 * “Workshop PrePostPrint - Chercher, manipuler, partager, imprimer”, Strabic, juin 2017: http://strabic.fr/Workshop-PrePostPrint
