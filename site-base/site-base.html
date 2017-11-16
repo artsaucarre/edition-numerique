@@ -2,7 +2,7 @@
 <html dir="ltr" class="sid-plesk" lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>YOUPI</title>
+    <title>CHANGE-MOI</title>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="site-base.css">
@@ -11,18 +11,21 @@
 </head>
 <body>
 
-    <div class="cadre">
-        <p>un mot</p>
+    <div class="glissable">
+        <p class="titre">SITE</p>
+        <p class="screen-only">ÉCRAN</p>
+        <p class="print-only">IMPRIMÉ</p>
+        <a href="page2.html">LIEN VERS PAGE 2</a>
     </div>
-    <div class="carre-noir coucou">
-        <p class="texte-centre-blanc">un mot</p>
-    </div>
+
 
 <!-- DANS SCRIPTS METTEZ VOS SCRIPTS :)-->
     <script>
         $( function() {
-          $( ".coucou" ).draggable();
+          $( ".glissable" ).draggable();
         } );
+        /* JUSTE EN DESSOUS METTEZ LES NOUVEAUX SCRIPTS:*/
+
     </script>
 
 </body>
